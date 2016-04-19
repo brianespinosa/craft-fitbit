@@ -7,7 +7,7 @@ namespace Craft;
  * @license   https://github.com/brianespinosa/craft-fitbit/blob/release/master/LICENSE
  */
 
-
+require_once(CRAFT_PLUGINS_PATH . 'fitbit/vendor/autoload.php');
 
 class FitbitPlugin extends BasePlugin
 {
